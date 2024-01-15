@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Work Sans', sans-serif;
+   
+}
+
+
+/* Banner Section */
+header{
+    max-width:1600px ;
+    min-height: 800px;
+    margin: 0px auto;
+    /* border: 2px solid red; */
+    background: url(../images/banner/banner3.png);
+    position: relative ;
+}
+.banner-content {
+   max-width: 525px;
+   /* border: 2px solid green; */
+   text-align: right;
+   position: absolute;
+   left: 900px;
+   top: 200px;
+}
+.banner-content h1{
+color: #FFF;
+font-size: 65px;
+font-weight: 700;
+padding: 5px;
+margin-bottom: 25px;
+}
+.banner-content p{
+color: #FFF;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+padding: 5px;
+margin-bottom: 30px;
+}
+.banner-content button{
+    border-radius: 5px;
+background: #FFF;
+width: 160px;
+height: 64px;
+border: 0px;
+color: #005FAC;
+font-size: 22px;
+font-weight: 600;
+
+
+}
+/* portfolio section */
+
+.portfolio-section{
+    max-width:1300px;    
+    margin: 140px auto;
+    /* border: 2px solid red; */
+
+}
+.portfolio-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.portfolio-img{
+    width: 50%;
+
+}
+.portfolio-content{
+    width: 50%;
+    
+
+}
+.portfolio-content h2{
+    color:  #151414;
+font-size: 50px;
+font-weight: 800;
+margin-bottom: 10px;
+}
+.portfolio-content p{
+    color:#444343;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px; 
+}
+.portfolio-list{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.portfolio-list ul li{
+    color:  #444343;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px; 
+
+}
+
+/* plan section */
+.plan-section{
+    max-width: 1300px;
+    margin: 50px auto;
+}
+.plan-section>h2{
+color: #151414;
+text-align: center;
+font-size: 50px;
+font-weight: 800;
+
+}
+.skill-container{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 10px;
+    padding: 40px 5px;
+}
+
+.skill-card img{
+margin-bottom: 20px;
+    
+}
+.skill-card h3{
+    color: #151414;
+text-align: center;
+font-size: 30px;
+font-weight: 800;
+margin-bottom: 15px;
+
+}
+.skill-card p{
+    color:  #737272;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+   
+}
+
+/* mindset section */
+.mindset-section{
+    max-width: 1300px;
+    min-height:300px;
+    margin: 50px auto;
+    background: linear-gradient(#005FAC, #005FAC00), url(../images/watch.png);
+    background-repeat: no-repeat;
+    
+    background-size: 1300px;
+    
+   
+}
+.mindset{
+    padding: 60px 600px 0px 65px;
+
+}
+.mindset h2{
+    color: #FFF;
+font-size: 40px;
+font-weight: 700;
+margin-bottom: 0px;
+
+}
+.mindset button{
+    margin-top: 0px;
+    margin-bottom: 50px;
+    width: 160px;
+height: 64px;
+border: 0px;
+border-radius: 5px;
+background: #FFF;
+padding: 20px 35px;
+
+
+color: #005FAC;
+text-align: center;
+font-size: 20px;
+font-weight: 600;
+
+}
+
+/* footer section */
+footer{
+    max-width: 1600px;
+    margin: 50px auto;
+    background: var(--Dark-01, #151414);
+   
+}
+.footer-container{
+    max-width: 1400px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 130px 230px;
+    gap: 80px;
+}
+.future{
+    width: 50%;
+    
+}
+.future h2{
+    color: #F8F8F8;
+font-size: 45px;
+font-weight: 700;
+margin-bottom: 15px;
+
+
+}
+.future p, h5{
+    color: #FFF;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px; 
+margin-bottom: 24px;
+}
+.footer-icon img{
+    padding-right:12px ;
+}
+.sub{
+    
+}
+.sub h2{
+    color: #FFF;
+font-size: 25px;
+font-weight: 600;
+margin-bottom: 30px;
+
+}
+.sub input{
+
+   width: 325px;
+height: 64px;
+color:  #F3F3F3;
+font-size: 18px;
+font-weight: 400;
+margin-bottom: 15px;
+
+
+/* finish */
+
+/* Mohammad Fahim */
+
+
+}
+.sub button{
+ display: block;
+width: 160px;
+height: 64px;
+
+    border-radius: 8px;
+background: #005FAC;
+padding: 20px 30px;
+color: #FFF;
+font-size: 15px;
+font-weight: 400;
+
+}
